@@ -41,7 +41,7 @@ def vorbeste(text):
     p.join()  # Așteaptă finalizarea vorbirii înainte de a continua codul
 
 # 2. AUTENTIFICAREA & MODELUL GROQ
-client = Groq(api_key="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")
+client = Groq(api_key="...")
 MODEL_NAME = "qwen/qwen3.8-27b"
 
 # 3. FUNCȚIE SPEECH-TO-TEXT (MICROFON -> GROQ WHISPER)
